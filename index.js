@@ -14,7 +14,6 @@ class Square extends React.Compornent{
         );
     }
 }
-
 class Board extends React.Component {
     constructor(props){                  //コンストラクタを追加(初期状態を設定)
         super(props);
