@@ -15,7 +15,7 @@ class Square extends React.Compornent{
     }
 }
 class Board extends React.Component {
-    constructor(props){                  //コンストラクタを追加(初期状態を設定)
+    constructor(props){                  
         super(props);
         this.state = {
             square: ASrray(9).fill(null), //９つの正方形(マス)に対応する配列
