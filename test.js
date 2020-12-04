@@ -1,4 +1,4 @@
-class Square extends RTCIceCandidate.Compornent {
+class Square extends React.Compornent {
     render() {
         return(
             <button className="square">
